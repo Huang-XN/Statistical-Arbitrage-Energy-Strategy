@@ -1,0 +1,5 @@
+Ensemble model's accuracy: 52.21%
+
+Logistic Regression Accuracy: 52.61%
+Random Forest Accuracy: 47.79%
+SVM Accuracy: 53.01%

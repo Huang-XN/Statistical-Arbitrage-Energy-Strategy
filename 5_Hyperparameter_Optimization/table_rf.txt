@@ -1,0 +1,7 @@
+Accuracy after optimization: 51.41%
+
+Accuracy of Train: 95.28%
+Accuracy of Test: 51.41%
+Overfitting Gap: 43.88%
+
+结论：严重过拟合！模型在背诵历史答案，而不是学习规律。
