@@ -34,7 +34,7 @@ Welcome to my personal quantitative finance laboratory. This repository document
     * Successfully identified the **2022 Bear Market** (State 2: High Volatility, Negative Returns) without any labeled data.
     * Identified the **2024 Bull Run** (State 0/1: Low Volatility, Positive Returns).
     * **Visual Proof:**
-    ![HMM Regimes](Figure_1_HMM_for_AAPL.jpg)
+    ![HMM Regimes](./7_HMM/Figure_1_HMM_for_AAPL.jpg)
     *(Note: The model autonomously learned to flag high-risk periods in red)*
 
 ## 🚀 About Me
