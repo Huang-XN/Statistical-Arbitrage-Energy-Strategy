@@ -96,7 +96,21 @@ The studies are organized into two distinct tracks:
     * Identified the **2024 Bull Run** (State 0/1: Low Volatility, Positive Returns)
     * **Visual Proof:**
     ![HMM Regimes](./7_HMM/Figure_1_HMM_for_AAPL.png)
-    *(Note: The model autonomously learned to flag high-risk periods in red)* 
+    *(Note: The model autonomously learned to flag high-risk periods in red)*
+
+### 6. Deep Learning for Time Series (LSTM with PyTorch)
+
+* **File:** `8_LSTM.ipynb`
+* **Objective:** To capture **long-term temporal dependencies** in financial sequences, analogous to analyzing long DNA sequences with distant regulatory elements.
+* **Methodology:**
+* **Architecture:** Built a multi-layer **LSTM (Long Short-Term Memory)** network using **PyTorch**.
+* **Stationarity Fix:** Shifted from predicting "Absolute Price" (Non-Stationary) to predicting "Log Returns" (Stationary) to prevent distribution shift.
+* **Evaluation Logic:** Implemented **One-Step Ahead Prediction** (Real-world trading simulation) instead of Free-Running generation.
+
+
+* **Key Findings:**
+* **The Visual Illusion:** Demonstrated how "perfectly fitting" price curves in many papers are often results of **Base Anchoring Bias** (predicting ).
+* **The Real Alpha:** While the visual fit is deceptive, the model achieved a **Directional Accuracy of 54.32%** on unseen test data, proving its ability to extract weak signals from high-noise environments.
 
 ## 📊 Study Comparison
 
@@ -109,6 +123,7 @@ The studies are organized into two distinct tracks:
 | 5 | ML Optimization | Generalization | Improved validation | Temporal CV critical |
 | 6 | ML Ensemble | Robustness | 52.21% accuracy | Limited diversity benefit |
 | 7 | Unsupervised | Regimes | State identification | Macro > Micro prediction |
+| 8 | DL | Regimes | Direction | Overfitting Challenge |
 
 ## 🚀 About Me
 
